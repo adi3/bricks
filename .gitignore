@@ -17,4 +17,35 @@ Makefile.in
 # Eclipse specific
 
 .metadata
-bin
+bin#*
+*$
+*.BAK
+*.Z
+*.bak
+*.class
+*.dylib
+*.elc
+*.ln
+*.log
+*.o
+*.obj
+*.olb
+*.old
+*.orig
+*.pyc
+*.pyo
+*.rej
+*/.git/*
+*~
+,*
+.#*
+.DS_Store
+.del-*
+.deployables
+.make.state
+.nse_depinfo
+CVS.adm
+RCS
+RCSLOG
+SCCS
+_$*
