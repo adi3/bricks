@@ -1,6 +1,6 @@
 # [BRICKS] (Insert demo link)
 
-A fundamental implementation of the Bricks (aka Breakout) game. Includes novelties such as powers-and-curses, cool alternating backgrounds, and an algorithm that calculates brick-layout and game-level dynamically with each instance of the game.
+A fundamental implementation of the Bricks (aka Breakout) game. Use the wooden paddle to control the ball and hit all the bricks. Includes novelties such as powers-and-curses, cool alternating backgrounds, and an algorithm that calculates brick-layout and game-level dynamically with each instance of the game.
 
 ## Features
 
