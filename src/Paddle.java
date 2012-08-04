@@ -7,7 +7,7 @@ public class Paddle extends GObject{
 	private GImage paddle;
 	
 	public Paddle(){
-		paddle = new GImage ("media/plank.png");
+		paddle = new GImage ("rsc/media/plank.png");
 	}
 	
 	public void setSize(int x, int y){

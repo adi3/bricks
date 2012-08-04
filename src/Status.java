@@ -41,16 +41,16 @@ public class Status extends GObject {
 	
 	// Displays the result if player wins.
 		public GImage winGame() {
-			over = new GImage("media/win.png");
-			AudioClip win = MediaTools.loadAudioClip("media/win.au");
+			over = new GImage("rsc/media/win.png");
+			AudioClip win = MediaTools.loadAudioClip("rsc/media/win.au");
 			win.play();
 			return over;
 		}
 		
 		// Displays the result if player loses.
 		public GImage loseGame() {
-			over = new GImage("media/lose.png");
-			AudioClip lose = MediaTools.loadAudioClip("media/witchcackle.au");
+			over = new GImage("rsc/media/lose.png");
+			AudioClip lose = MediaTools.loadAudioClip("rsc/media/witchcackle.au");
 			lose.play();
 			return over;
 		}

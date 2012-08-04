@@ -106,8 +106,8 @@ public class BricksGame extends GraphicsProgram {
 	private Bullet bullet = null;
 	
 	private int round = 1;
-	AudioClip capTone = MediaTools.loadAudioClip("media/click.au");
-	AudioClip shoot = MediaTools.loadAudioClip("media/gun.au");
+	AudioClip capTone = MediaTools.loadAudioClip("rsc/media/click.au");
+	AudioClip shoot = MediaTools.loadAudioClip("rsc/media/gun.au");
 	
 	private void setRandomsToPowers(){
 		ArrayList<Integer> temp = new ArrayList<Integer>();
@@ -286,15 +286,16 @@ public class BricksGame extends GraphicsProgram {
 		return true;
 	}
 	
+	/* TODO: change to switch statement */
 	private void dropPower(){
 		if(capsule != null) capsule.move(0, 3);
-		if(looper == time_extraBall) bool_extraBall = buildPower("cap/red.png");
-		if(looper == time_fastBall)	bool_fastBall = buildPower("cap/orange.png");
-		if(looper == time_slowBall)	bool_slowBall = buildPower("cap/green.png");
-		if(looper == time_solidBall) bool_solidBall = buildPower("cap/yellow.png");
-		if(looper == time_longBoard) bool_longBoard = buildPower("cap/blue.png");
-		if(looper == time_shortBoard) bool_shortBoard = buildPower("cap/lilac.png");
-		if(looper == time_bullet) bool_bullet = buildPower("cap/pink.png");
+		if(looper == time_extraBall) bool_extraBall = buildPower("rsc/cap/red.png");
+		if(looper == time_fastBall)	bool_fastBall = buildPower("rsc/cap/orange.png");
+		if(looper == time_slowBall)	bool_slowBall = buildPower("rsc/cap/green.png");
+		if(looper == time_solidBall) bool_solidBall = buildPower("rsc/cap/yellow.png");
+		if(looper == time_longBoard) bool_longBoard = buildPower("rsc/cap/blue.png");
+		if(looper == time_shortBoard) bool_shortBoard = buildPower("rsc/cap/lilac.png");
+		if(looper == time_bullet) bool_bullet = buildPower("rsc/cap/pink.png");
 	}
 	
 	private void setCapAlertLabel(){
@@ -429,7 +430,7 @@ public class BricksGame extends GraphicsProgram {
 	
 	private void setStartLabels(){
 		addStatus();
-		GImage start = new GImage ("media/start.png");
+		GImage start = new GImage ("rsc/media/start.png");
 		add (start, (APPLICATION_WIDTH - start.getWidth())/2, 
 				20+APPLICATION_HEIGHT/2);
 		waitForClick();
@@ -466,10 +467,10 @@ public class BricksGame extends GraphicsProgram {
 	private void setBackground(){
 		int temp = rgen.nextInt(1,TOTAL_BG_OPTIONS);
 		removeAll();
-		bg = new GImage("bg/bg" + temp + ".jpg");
+		bg = new GImage("rsc/bg/bg" + temp + ".jpg");
 		bg.scale(1.03,1.05);
 		add(bg);
-		plank = new GImage("media/plank.png");
+		plank = new GImage("rsc/media/plank.png");
 		plank.scale(1.05,1.1);
 		add(plank, 5, 5);
 	}

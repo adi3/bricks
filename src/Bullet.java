@@ -51,7 +51,7 @@ public class Bullet extends GObject{
 	
 	public GImage getBullet(){
 		isLaunched = false;
-		bullet = new GImage("media/b1.png");
+		bullet = new GImage("rsc/media/b1.png");
 		bullet.setSize(10, 20);
 		bullet.setLocation(paddle.getX() + paddle.getWidth()/2, paddle.getY());
 		return bullet;
