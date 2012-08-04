@@ -8,7 +8,7 @@ import acm.graphics.*;
 import acm.program.*;
 import acm.util.*;
 
-public class Breakout extends GraphicsProgram {
+public class BricksGame extends GraphicsProgram {
 	
 	private static final long serialVersionUID = 5542887389048921770L;
 	
@@ -151,7 +151,7 @@ public class Breakout extends GraphicsProgram {
 	
 	
 	 public static void main(String[] args){
-	      new Breakout().start();
+	      new BricksGame().start();
 	   }
 	 
 	 public void init(){
@@ -162,7 +162,7 @@ public class Breakout extends GraphicsProgram {
 	 
 	public void run(){
 		while(true){
-			setTitle("Badass Breakout | Adi, Inc. - Round: " + round);
+			setTitle("Bricks | Adi, Inc. - Round: " + round);
 			setGame();
 			runGame();
 			endGame();
