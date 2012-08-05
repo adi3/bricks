@@ -26,10 +26,10 @@
     <copyright>Adi, Inc.</copyright>
     <productVersion>1.5.0.0</productVersion>
     <txtProductVersion>N/A</txtProductVersion>
-    <productName>Breakout</productName>
+    <productName>Bricks</productName>
     <companyName>Adi, Inc.</companyName>
-    <internalName>Breakout</internalName>
-    <originalFilename>Breakout.exe</originalFilename>
+    <internalName>bricks</internalName>
+    <originalFilename>bricks.exe</originalFilename>
   </versionInfo>
   <messages>
     <startupErr>An error occurred while starting the application. Please contact adisin8@gmail.com to resolve error.</startupErr>
