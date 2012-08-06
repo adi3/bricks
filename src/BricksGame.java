@@ -176,7 +176,7 @@ public class BricksGame extends GraphicsProgram {
 		
 		double diff = TBRICKS - bricksRemoved;
 		double level = 10*(diff/TBRICKS);
-		DecimalFormat twoDForm = new DecimalFormat("#.#");
+		DecimalFormat twoDForm = new DecimalFormat("#,#");
         double normalLevel = Double.valueOf(twoDForm.format(level));
 		add(status.getLevel(normalLevel), STATUS_X1, STATUS_Y1);
 	}
