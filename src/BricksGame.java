@@ -147,8 +147,7 @@ public class BricksGame extends GraphicsProgram {
 		time = temp.get(rgen.nextInt(0, temp.size()-1));
 		time_bullet = time;
 		temp.remove(temp.indexOf(time));		
-	}
-	
+	}	
 	
 	 public static void main(String[] args){
 	      new BricksGame().start();

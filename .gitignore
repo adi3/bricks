@@ -1,3 +1,5 @@
+/bin
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
@@ -14,4 +16,7 @@ Makefile.in
 
 # Eclipse specific
 
-.metadata
+/.metadata
+/.settings
+/.classpath
+/.project
