@@ -18,7 +18,7 @@ A fundamental implementation of the Bricks (aka Breakout) game. Use the wooden p
 
 ## Developers
 
-* Aditya Singh [http://facebook.com/adisin3]
+* Adi Singh [http://facebook.com/adisin3]
 
 
 ## Project Information
